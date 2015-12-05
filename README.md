@@ -1,5 +1,11 @@
 Event support for [Statesman](https://github.com/gocardless/statesman).
 
+## Installation
+
+```ruby
+gem install statesman-events
+```
+
 ## TL;DR Usage
 
 ```ruby
