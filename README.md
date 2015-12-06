@@ -1,7 +1,11 @@
+# Statesman Events
+
 Event support for [Statesman](https://github.com/gocardless/statesman).
 
 [![Gem Version](https://badge.fury.io/rb/statesman-events.png)](http://badge.fury.io/rb/statesman-events)
 [![Build Status](https://travis-ci.org/gocardless/statesman-events.svg?branch=master)](https://travis-ci.org/gocardless/statesman-events)
+
+---
 
 ## Installation
 
