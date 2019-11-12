@@ -65,7 +65,7 @@ describe Statesman::Events do
     context "when the state cannot be transitioned to" do
       it "raises an error" do
         expect { instance.trigger!(:event_2) }.
-          to raise_error(Statesman::TransitionFailedError)
+          to raise_error(Statesman::InvalidTransitionError)
       end
     end
 

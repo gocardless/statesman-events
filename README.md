@@ -86,7 +86,7 @@ failure.
 instance.trigger!(:some_event)
 ```
 Triggers the passed event, returning `true` on success. Raises
-`Statesman::GuardFailedError` or `Statesman::TransitionFailedError` on failure.
+`Statesman::GuardFailedError` or `Statesman::InvalidTransitionError` on failure.
 
 #### `Event#available_events`
 ```ruby
