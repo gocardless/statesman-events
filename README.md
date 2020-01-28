@@ -1,10 +1,12 @@
-# Statesman Events
+# Statesman Events (UNMAINTAINED)
 
 Event support for [Statesman](https://github.com/gocardless/statesman).
 
 [![Gem Version](https://badge.fury.io/rb/statesman-events.png)](http://badge.fury.io/rb/statesman-events)
 [![Build Status](https://travis-ci.org/gocardless/statesman-events.svg?branch=master)](https://travis-ci.org/gocardless/statesman-events)
 
+
+# THIS REPO IS UNMAINTAINED. PLEASE DO NOT USE IT.
 ---
 
 ## Installation
@@ -95,5 +97,3 @@ instance.available_events
 Returns an array of events you can `trigger` from the current state.
 
 ---
-
-GoCardless ♥ open source. If you do too, come [join us](https://gocardless.com/jobs#software-engineer).
