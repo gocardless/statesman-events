@@ -41,10 +41,10 @@ module Statesman
       false
     end
 
-    def available_events
+    def available_events(metadata = {})
       state = current_state
       self.class.events.select do |_, transitions|
-        transitions.key?(state)
+        ( Array.wrap(transitions[state]) & allowed_transitions(metadata) ).any?
       end.map(&:first)
     end
   end
